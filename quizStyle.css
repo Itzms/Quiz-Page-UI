@@ -184,10 +184,10 @@ header{
     overflow-y:auto;
     animation: appear 0.5s ease-in 1;
 }
-@media (min-width:400px) and (max-width:800px){
+@media (min-width:300px) and (max-width:800px){
     .quiz{
         max-width:60%;
-        margin:auto;
+        margin:1% auto;
     }
 }
 @keyframes appear{

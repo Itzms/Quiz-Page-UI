@@ -171,6 +171,7 @@ header{
 }
 .quiz{
     display:none;
+    
    /* border:0.5px solid rgba(255,255,255,1);*/
     border-radius:15px;
     box-shadow:0 0 10px rgba(255,255,255,0.2);
@@ -182,6 +183,12 @@ header{
     gap:2%;
     overflow-y:auto;
     animation: appear 0.5s ease-in 1;
+}
+@media (min-width:400px) and (max-width:800px){
+    .quiz{
+        max-width:60%;
+        margin:auto;
+    }
 }
 @keyframes appear{
     0%{
